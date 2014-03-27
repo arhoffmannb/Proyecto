@@ -64,14 +64,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Inicio.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Inicio.java">
+      <file leaf-file-name="Carretera.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Carretera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="29" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.37037036" vertical-offset="1528" max-vertical-offset="2227">
+            <state line="36" column="50" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.787037" vertical-offset="102" max-vertical-offset="850">
               <folding>
-                <element signature="e#0#3307#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MostrarPantalla.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MostrarPantalla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,9 +94,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Carretera.java" />
-        <option value="$PROJECT_DIR$/src/MostrarPantalla.java" />
         <option value="$PROJECT_DIR$/src/Inicio.java" />
+        <option value="$PROJECT_DIR$/src/MostrarPantalla.java" />
+        <option value="$PROJECT_DIR$/src/Carretera.java" />
       </list>
     </option>
   </component>
@@ -187,21 +195,28 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Inicio">
-    <configuration default="false" name="Inicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inicio" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager">
+    <configuration default="false" name="MostrarPantalla" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MostrarPantalla" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Proyecto" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -239,6 +254,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -264,19 +292,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -333,11 +348,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Inicio" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MostrarPantalla" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Inicio" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MostrarPantalla" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -379,8 +394,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,66 +419,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
+    <entry file="file://$PROJECT_DIR$/src/Carretera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1343">
+        <state line="12" column="50" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="816">
           <folding>
-            <element signature="e#0#3307#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
+    <entry file="file://$PROJECT_DIR$/src/MostrarPantalla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1071">
-          <folding>
-            <element signature="e#0#3307#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="98" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
-          <folding>
-            <element signature="e#0#3307#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="65" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="731">
-          <folding>
-            <element signature="e#0#3307#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="714">
-          <folding>
-            <element signature="e#0#3307#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="33" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MostrarPantalla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Images/Fondo.jpg">
@@ -473,16 +447,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../Abrir_Imagen/src/abrir_imagen/Abrir_Imagen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MostrarPantalla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inicio.java">
+    <entry file="file://$PROJECT_DIR$/src/Carretera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="29" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.37037036" vertical-offset="1528" max-vertical-offset="2227">
+        <state line="36" column="50" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.787037" vertical-offset="102" max-vertical-offset="850">
           <folding>
-            <element signature="e#0#3307#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
